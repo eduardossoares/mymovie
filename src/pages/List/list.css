@@ -1,0 +1,62 @@
+.my-list {
+    gap: 24px;
+    color: white;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 600px;
+}
+
+.empty-list {
+    text-align: center;
+}
+
+.my-list h1 {
+    text-align: center;
+}
+
+.my-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.my-list ul li {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.my-list ul li div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.my-list ul li div a {
+    text-decoration: none;
+    color: white;
+    transition: ease 400ms;
+}
+
+.my-list ul li div a:hover {
+    text-decoration: none;
+    color: #C66648;
+}
+
+.my-list ul li div button {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: #924848;
+    border: none;
+    color: white;
+    transition: ease 400ms;
+}
+
+.my-list ul li div button:hover {
+    scale: 1.03;
+}

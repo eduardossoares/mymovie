@@ -1,0 +1,23 @@
+.error-message {
+    color: white;
+    margin-top: 350px;
+    text-align: center;
+}
+
+.error-message h1 {
+    font-size: 8rem;
+}
+
+.error-message h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.error-message a {
+    text-decoration: none;
+    color: white;
+    background-color: #C66648;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 6px;
+}

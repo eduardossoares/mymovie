@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loading {
+    font-weight: 200;
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+}
+
+.home-title {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.movie-list {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 60px;
+}
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.article strong {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.article img {
+    max-width: 230px;
+    border-radius: 20px;
+    transition: ease 200ms;
+}
+
+.article img:hover {
+    scale: 1.02;
+}
+
+.article .movie-button {
+    width: 230px;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-color: #C66648;
+    padding: 8px;
+    padding-inline: 12px;
+    border-radius: 8px;
+    transition: ease 100ms;
+}
+
+.article .movie-button:hover {
+    scale: 1.05;
+    background-color: #94452d;
+}

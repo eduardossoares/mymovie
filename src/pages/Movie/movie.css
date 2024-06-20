@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.movie-details {
+    color: white;
+    margin-top: 300px;
+    font-size: 1rem;
+}
+
+.movie-info {
+    margin-top: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    color: white;
+    gap: 20px;
+}
+
+.movie-img {
+    border-radius: 10px;
+    width: 600px;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sinopse-text {
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.buttons {
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.buttons button {
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    padding-inline: 10px;
+    background-color: #C66648;
+    transition: ease  300ms;
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons button:hover {
+    scale: 1.07;
+}
