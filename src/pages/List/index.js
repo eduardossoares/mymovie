@@ -12,6 +12,7 @@ function List() {
 
     const notify = (msg) => {
         toast.success(msg, {
+            closeOnClick: true,
             pauseOnHover: false,
         });
     }

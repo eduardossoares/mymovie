@@ -60,3 +60,40 @@
 .my-list ul li div button:hover {
     scale: 1.03;
 }
+
+/*
+RESPONSIVIDADE
+*/
+
+@media (max-width: 740px) {
+    .my-list {
+        width: 480px;
+    }
+}
+
+@media (max-width: 560px) {
+    .my-list {
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .my-list ul {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .app {
+        padding-bottom: 140px;
+    }
+
+    .my-list ul {
+        gap: 40px;
+    }
+
+    .my-list ul li {
+        font-size: 16px;
+        gap: 6px;
+        flex-direction: column;
+    }
+}

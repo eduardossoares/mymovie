@@ -63,3 +63,38 @@ body {
 .buttons button:hover {
     scale: 1.07;
 }
+
+/*
+RESPONSIVIDADE
+*/
+
+@media (max-width: 940px) {
+    .movie-info {
+        width: 500px;
+    }
+
+    .movie-img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 590px) {
+    .movie-info {
+        width: 400px;
+    }
+
+    .movie-img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 470px) {
+    .movie-info {
+        width: 300px;
+        padding-bottom: 100px;
+    }
+
+    .movie-img {
+        width: 300px;
+    }
+}

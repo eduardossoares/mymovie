@@ -15,9 +15,12 @@ function Movie() {
     const navigation = useNavigate();
 
     const notify = (msg) => toast.success(msg, {
+        pauseOnHover: false,
+        closeOnClick: true,
     });
     const alertNotify = (msg) => toast.error(msg, {
         pauseOnHover: false,
+        closeOnClick: true,
     });
 
     useEffect(() => {
@@ -64,7 +67,7 @@ function Movie() {
 
     if (loading) {
         return (
-            <div className="movie-details">
+            <div className="loading-details">
                 <h1>Carregando detalhes...</h1>
             </div>
         )
