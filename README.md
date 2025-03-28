@@ -1,41 +1,29 @@
-# myMovie
-Este projeto foi desenvolvido como parte do curso de Desenvolvimento FullStack do Sujeito Programador. Trata-se de um web app que permite aos usuários visualizar os filmes atualmente em cartaz no cinema. Utilizando a API TMDb para obter dados detalhados sobre os filmes, o projeto proporciona uma experiência interativa e informativa aos cinéfilos.
+# myMovie 🎬
 
-## Funcionalidades
-1. Homepage com Filmes em Cartaz: Exibe uma lista de filmes atualmente em exibição nos cinemas.
-2. Página de Detalhes do Filme: Informações detalhadas sobre cada filme, incluindo sinopse, nota, trailer e mais.
-3. Salvar Filmes: Adicione filmes a uma lista personalizada para assistir mais tarde.
-4. Lista de Filmes Salvos: Acesso a uma lista de filmes salvos, persistida no localStorage.
+Uma plataforma interativa para cinéfilos, desenvolvida com React.js. O myMovie permite explorar filmes em cartaz, salvar favoritos e acessar detalhes completos, proporcionando uma experiência fluida e intuitiva.
+
+## Sobre o Projeto
+
+O myMovie é um aplicativo web que utiliza a API TMDb para exibir informações detalhadas sobre filmes, como sinopse, nota, trailer e mais. Ele oferece uma navegação moderna e dinâmica, permitindo que usuários descubram e organizem seus filmes favoritos com facilidade. O armazenamento local garante que os filmes salvos permaneçam acessíveis a qualquer momento.
+
+![Next.js](https://img.shields.io/badge/React.js-18-blue) ![TypeScript](https://img.shields.io/badge/JavaScript-6-yellow)
+
+## Funcionalidades Principais
+
+- Exploração de Filmes: Descubra os filmes atualmente em cartaz nos cinemas.
+- Detalhes Completos: Veja sinopse, avaliações, trailers e outras informações.
+- Lista de Favoritos: Salve filmes para assistir mais tarde.
+- Experiência Responsiva: Interface adaptável a diferentes dispositivos.
 
 ## Tecnologias Utilizadas
-1. ReactJS: Biblioteca JavaScript para construção de interfaces de usuário.
-2. Axios: Cliente HTTP para requisições à API TMDb.
-3. API TMDb: Fonte de dados sobre filmes.
-4. LocalStorage: Armazenamento local dos filmes salvos.
 
-## Instalação e Uso
-1. Clone o repositório:
-``
-git clone https://github.com/eduardossoares/mymovie.git
-``
+- React.js: Interface interativa e componentizada.
+- Axios: Requisições eficientes para a API TMDb.
+- API TMDb: Fonte de dados sobre filmes.
+- LocalStorage: Persistência dos filmes salvos no navegador.
 
-2. Navegue até o diretório do projeto:
-``
-cd mymovie
-``
+## Decisões Técnicas
 
-3. Instale as dependências:
-``
-npm i react-scripts
-``
-
-4. Inicie o servidor de desenvolvimento:
-``
-npm start
-``
-
-## Autor
-
-Eduardo da Silva Soares
-
-https://www.linkedin.com/in/eduardo-da-silva-soares/
+- Escolhi React.js pela sua eficiência na criação de SPAs dinâmicas.
+- Usei Axios para facilitar a comunicação com a API TMDb.
+- Optei por LocalStorage para armazenar favoritos sem necessidade de backend.
