@@ -10,20 +10,20 @@ O myMovie é um aplicativo web que utiliza a API TMDb para exibir informações 
 
 ## Funcionalidades Principais
 
-- Exploração de Filmes: Descubra os filmes atualmente em cartaz nos cinemas.
-- Detalhes Completos: Veja sinopse, avaliações, trailers e outras informações.
-- Lista de Favoritos: Salve filmes para assistir mais tarde.
-- Experiência Responsiva: Interface adaptável a diferentes dispositivos.
+- **Exploração de Filmes:** Descubra os filmes atualmente em cartaz nos cinemas.
+- **Detalhes Completos:** Veja sinopse, avaliações, trailers e outras informações.
+- **Lista de Favoritos:** Salve filmes para assistir mais tarde.
+- **Experiência Responsiva:** Interface adaptável a diferentes dispositivos.
 
 ## Tecnologias Utilizadas
 
-- React.js: Interface interativa e componentizada.
-- Axios: Requisições eficientes para a API TMDb.
-- API TMDb: Fonte de dados sobre filmes.
-- LocalStorage: Persistência dos filmes salvos no navegador.
+- **React.js:** Interface interativa e componentizada.
+- **Axios:** Requisições eficientes para a API TMDb.
+- **API TMDb:** Fonte de dados sobre filmes.
+- **LocalStorage:** Persistência dos filmes salvos no navegador.
 
 ## Decisões Técnicas
 
-- Escolhi React.js pela sua eficiência na criação de SPAs dinâmicas.
-- Usei Axios para facilitar a comunicação com a API TMDb.
-- Optei por LocalStorage para armazenar favoritos sem necessidade de backend.
+- Escolhi **React.js** pela sua eficiência na criação de SPAs dinâmicas.
+- Usei **Axios** para facilitar a comunicação com a API TMDb.
+- Optei por **LocalStorage** para armazenar favoritos sem necessidade de backend.
